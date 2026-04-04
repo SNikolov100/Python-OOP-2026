@@ -86,7 +86,7 @@ class AuctionHouseManagerApp:
                   ]
 
         for collector in self.collectors:
-            result.append(collector.__str__())
+            result.append(collector.__str__)
         return "\n".join(result)
 
 
